@@ -1,0 +1,94 @@
+.listContent {
+  width: 100%;
+  max-width: 736px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+  gap: 1.5rem;
+}
+
+.listContentHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listCreatedTaskCounter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  font-weight: bold;
+  color: var(--blue-400);
+}
+
+.listCreatedTaskCounter > span {
+  width: 2rem;
+  height: 1.3rem;
+  padding: 2px 8px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+}
+
+.listDoneTaskCounter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.7;
+  font-weight: bold;
+  color: var(--purple-400);
+}
+
+.listDoneTaskCounter > span {
+  width: fit-content;
+  height: 1.3rem;
+  padding: 2px 8px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.75rem;
+  background: var(--gray-400);
+  color: var(--gray-200);
+}
+
+.emptyList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-300);
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.emptyList > svg {
+  margin-bottom: 1rem;
+  color: var(--gray-400);
+}
+
+.listItensContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .listContentHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
