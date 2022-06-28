@@ -24,4 +24,10 @@
 
 
 ### Mobile Mode
+
+#### All Page
 ![image](https://user-images.githubusercontent.com/62482908/176277099-6a707e01-5fc9-4401-8e5b-144ca7c38b2b.png)
+
+
+#### Empty Input Validation (That works on Desktop Mode too)
+![image](https://user-images.githubusercontent.com/62482908/176277514-8ace17aa-88d3-4d7d-aa68-e0b8167ff7d3.png)
