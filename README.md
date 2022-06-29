@@ -1,16 +1,20 @@
-# Ignite-ToDo
+# 🚀 Ignite-ToDo 🚀 
  
  That is the first Challenge I have to do in Ignite Module at Rockeseat WebSite
 
-### Vercel Link to test: https://ignite-to-do.vercel.app/
+### Link to Access: https://ignite-to-do.vercel.app/
 
- ### What did i use:
- - Vite
-   - React - TypeScript
- - CSS Modules (**.module.css)
- - uuid
+ ### 🛠 Tools:
+   - Vite
+     - React - TypeScript
+   - CSS Modules (**.module.css)
+   - uuid
+   - Responsive Design
  
- ### Desktop Mode
+### ✔ You can:
+  - Create, Delete and Select as Done a Task
+ 
+### 💻 Desktop Mode
  
  #### Initial Page
  ![image](https://user-images.githubusercontent.com/62482908/176276908-54dc4627-51e6-4454-b487-96101e6651e0.png)
@@ -25,7 +29,7 @@
 ![image](https://user-images.githubusercontent.com/62482908/176277070-040c09d6-6ac5-4bda-b3b2-92daf1b601eb.png)
 
 
-### Mobile Mode
+### 📱 Mobile Mode
 
 #### All Page
 ![image](https://user-images.githubusercontent.com/62482908/176277099-6a707e01-5fc9-4401-8e5b-144ca7c38b2b.png)
