@@ -47,6 +47,9 @@ export function List() {
 
   function handleCreateNewTask(event: FormEvent) {
     event.preventDefault();
+    if (newTaskText.trim() == '') {
+      return;
+    }
     const newTask = {
       content: newTaskText,
       id: uuidv4(),
